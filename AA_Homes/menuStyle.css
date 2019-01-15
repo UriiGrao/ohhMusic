@@ -1,0 +1,181 @@
+th, td {
+   padding: 15px;
+   text-align: left;
+}
+
+table{
+   border-collapse: collapse;
+}
+
+.musicos, .locales{
+   background: #fff;
+   display: inline-block;
+   padding: 70px;
+   float: inline-start;
+}
+
+.contenty{
+   text-align: center;
+   top: 133px;
+}
+
+.contenty > p{
+   display: inline-block;
+   position: absolute;
+   top: -43px;
+}
+
+.viewsy{
+   display: inline-block;
+   background-color: #fff;
+   text-align: center;
+   margin: 19px 0px;
+   width: 80%;
+}
+
+.welcome{
+   font-family: 'Pacifico', cursive;
+   font-size: 24px;
+   display: inline-block;
+   top: 11px;
+   position: absolute;
+   left: 38px;
+   font-weight: 100;
+}
+
+.contenty > b, p  {
+   margin: 25px 10px 10px -10px;
+   display: inline-block;
+   position: relative;
+   text-align: initial;
+}
+
+h2{
+   font-size: 29px;
+   text-decoration: none;
+}
+
+.votarMusico, .votarConcierto{
+   background-color: #fff;
+   position: relative;
+   top: 25px;
+   display: inline-block;
+   width: 80%;
+   padding: 45px 30px 55px 30px;
+   margin: 0px 0px 50px 0px;
+}
+
+.votarMusico > h2{
+   font-family: Montserrat;
+   padding: 15px 5px 20px 5px;
+   font-size: 32px;
+   font-weight: 100;
+}
+
+.votarMusico > form > input{
+   background-color: rgba(91, 217, 153, 0.75);
+   padding: 7px 35px 7px 40px;
+   border: 1px solid rgba(91, 217, 153, 0.75);
+   color: #fff;
+   border-radius: 2px;
+}
+
+.beforeSelect{
+   color: #ccc;
+   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+   font-weight: 200;
+}
+
+.tableTitle{
+   font-size: 20px;
+   font-weight: 300;
+   color: #65d29b;
+   min-width: 90px;
+}
+
+.tableButtInput{
+   padding: 5px 35px 5px 40px;
+   border-radius: 2px;
+   border: 1px solid #ccc;
+   margin: 0px 0px 0px 30px;
+}
+
+.votarConcierto > h2{
+   font-family: Montserrat;
+   padding: 15px 5px 20px 5px;
+   font-size: 32px;
+   font-weight: 100;
+}
+
+#altaConcierto{
+   display: inline-block;
+   position: relative;
+   background: #fff;
+   height: 100px;
+   width: 80%;
+}
+
+#altaConcierto > a{
+   border: 1px solid #65d29b;
+   padding: 7px 35px 7px 40px;
+   border-radius: 2px;
+   text-decoration: none;
+   top: 40px;
+   position: relative;
+   background-color: #65d29b;
+   color: white;
+}
+
+.wilkommen{
+   position: absolute;
+   top: -40px;
+   left: 207px;
+}
+
+.wilkommen > p{
+   top: 15px;
+   margin: 0px;
+   display: unset;
+   position: absolute;
+}
+
+.verConciertoPendientes, .verConciertoAceptados{
+   background-color: #fff;
+   position: relative;
+   top: 0px;
+   display: inline-block;
+   padding: 45px 30px 55px 0px;
+   margin: 0px 0px 50px 0px;
+}
+
+.verConciertoPendientes > h2, .verConciertoAceptados > h2{
+   font-family: Montserrat;
+   padding: 15px 5px 20px 5px;
+   font-size: 32px;
+   font-weight: 100;
+}
+
+.upDownBut{
+   padding: 5px 35px 5px 40px;
+   border-radius: 2px;
+   border: 1px solid #ccc;
+
+}
+.vote{
+   padding: 5px 35px 5px 40px;
+   border-radius: 2px;
+   border: 1px solid #ccc;
+   margin: 0px 0px 0px 30px;
+}
+
+.conciertosP, .conciertosA, #verConciertoDenegados{
+   padding: 55px 55px 0px 55px;
+   position: relative;
+}
+
+.conciertosP > h2, .conciertosA > h2, #verConciertoDenegados > h2{
+   font-family: Montserrat;
+   padding: 15px 5px 20px 5px;
+   font-size: 32px;
+   font-weight: 100;
+}

@@ -1,0 +1,126 @@
+.contenty   {
+    height: 85%;
+    width: 75%;
+    display: inline-block;
+    position: relative;
+    top: 100px;
+    margin: 0px 168px;
+}
+
+.topPerfil  {
+    height: 149px;
+    width: 100%;
+    top: 15px;
+}
+
+.imgPy {
+    height: 146px;
+    border: solid 1px #d9dae5;
+    border-radius: 76px;
+}
+
+.imgPerf{
+    top: 0px;
+    position: relative;
+}
+
+fview   {
+    text-align: center;
+}
+
+.modify {
+    display: inline-block !important;
+    position: relative;
+    top: 123px;
+    background: #fff;
+    padding: 40px 158px 40px 66px;
+    border: solid 1px #ccc;
+    border-radius: 2px;
+}
+
+.usu{
+    display: inline-block;
+    position: relative;
+    top: 85px;
+    font-size: 37px;
+    font-family: Montserrat;
+    font-weight: 100;
+    color: #6e6e6e;
+    height: 23px;
+}
+
+.modify > b{
+    padding: 11px 23px;
+    border-collapse: collapse;
+    display: inline-block;
+    color: rgb(91,217,153);
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.formFanC{
+    display: inline-block;
+    position: relative;
+    top: -1px;
+    background: #fff;
+    padding: 40px 88px 0px 46px;
+    border: solid 1px #ccc;
+    border-radius: 2px;
+    left: 0px;
+    z-index: 2;
+    min-height: 240px;
+    min-width: 351px;
+}
+
+.formFanC > b{
+    padding: 11px 23px;
+    border-collapse: collapse;
+    display: inline-block;
+    color: rgb(91,217,153);
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.formFanC > input{
+    position: relative;
+    display: inline-block;
+    border: solid 1px #6e6e6e66;
+    padding: 7px 0px 7px 40px;
+    margin: 3px 3px 3px 45px;
+    border-radius: 3px;
+}
+
+.editShow{
+    top: 80px;
+    position: relative;
+    display: inline-block;
+    left: 7%;
+    background-color: rgba(91, 217, 153, 0.75);
+    border: solid 1px rgb(91,217,153);
+    padding: 7px 40px 7px 40px;
+    margin: 3px 3px 3px 45px;
+    border-radius: 3px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.imgClose{
+    cursor: pointer;
+    position: relative;
+    top: -314px;
+    left: 116%;
+    display: inline-block;
+}
+
+.doneBut{
+    display: inline-block !important;
+    position: relative !important;
+    top: -8px !important;
+    float: right !important;
+    padding: 7px 30px !important;
+    right: -76px !important;
+}
+
+@media only screen and (max-width: 375px){
+    
+}
