@@ -1,0 +1,477 @@
+*	{
+    margin: 0px;
+    padding: 0px;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    color: #262626;
+}
+
+html{
+    overflow: initial;
+}
+
+html, body	{
+    background-color: #fafafa;
+    width: 100%;
+    height: 100%;
+    font-size: 14px;
+    line-height: 18px;	
+}
+
+.all{
+    height: auto;
+}
+
+.navy {
+    display: block;
+    position: fixed;
+    width: 100%;
+    height: 55px;
+    background-color: rgba(0,0,0,.6);
+    border-bottom: 1px solid rgba(0,0,0,.0975);
+    z-index: 3;
+    vertical-align: middle;
+    text-align: center;
+}
+
+h1{
+    font-size: 34px;
+    font-family: 'Pacifico', light, cursive;
+    display: inline-block;
+    position: relative;
+    top: 19px;
+    left: 120px;
+    float: left;
+    color: #fff;
+    font-weight: 100;
+}
+
+#but > a> input{
+    border: solid 1px #e6e6e600;
+    float: right;
+    top: 15px;
+    display: inline-block;
+    position: relative;
+    right: 87px;
+    background: #9acd3200;
+    color: #d9dadc;
+    font-size: 17px;
+}
+
+#but > a > input:hover{
+    color: #3897f0 ;
+}
+
+.c:hover{
+    color: #3897f0 ;
+}
+
+.content{
+    top: 0px;
+    position: relative;
+    background-color: rgb(91,217,153);
+    height: 550px;
+}
+
+.prom{
+    height: 100%;
+    width: 93%;
+    display: inline-block;
+    position: relative;
+    align-content: center;
+    z-index: 2;
+}
+
+.prom > .pint > p{
+    font-size: 80px;
+    color: #fff;
+    line-height: 90px;
+    text-align: center;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    position: absolute;
+    top: 180px;
+    padding: 0px 100px 0px 100px;
+    font-weight: 100;
+}
+
+.prom > img{
+    width: 100%;
+    height: auto;
+    z-index: -1;
+    opacity: 0.2;
+}
+
+#prom2{
+    align-content: center;
+}
+
+.prom > .titl{
+    position: absolute;
+    top: 153px;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    font-weight: 100;
+    font-size: 70px;
+    color: white;
+    padding: 0px 271px;
+    line-height: 80px;
+}
+
+.promM > .secn{
+    font-size: 20px;
+    margin: 20px 0px 0px 0px;
+}
+
+.promM{
+    background-color: #fff6;
+    display: inline-block;
+    line-height: 45px;
+    padding: 28px 48px;
+    margin: 0px 10px 0px 101px;
+    top: -410px;
+    position: relative;
+}
+
+.prom > .promM > h5{
+    color: #fff;
+    font-size: 25px;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    position: absolute;
+    top: 20px;
+    font-weight: 300;
+}
+
+#ty{
+    position: relative;
+    top: -314px;
+    height: 570px;
+    background: #fff;
+    padding: 100px 0px 0px 0px;
+}
+
+.pass{
+    font-size: 30px;
+    color: #3897f0;
+    font-family: Montserrat;
+}
+
+.pas{
+    font-size: 75px;
+    display: inline-block;
+    position: relative;
+    font-weight: 300;
+    padding: 40px 404px 0px 419px;
+    margin: 30px 0px 60px 0px;
+    height: 42px;
+}
+
+.slick{
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+}
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 35px;
+}
+
+#prom1 > p{
+    font-size: 70px;
+    margin: auto 203px;
+}
+
+.titl{
+    top: -50px;
+    position: relative;
+}
+
+#tables{
+    display: inline-block;
+    position: relative;
+    top: -397px;
+    background-color: #49ae7cb3;
+    padding: 100px 0px 0px 0px;
+    width: 100%;
+}
+
+.plantiTable{
+    padding: 0px 100px 100px 100px;
+}
+
+.table{
+    margin: 23px 0px;
+}
+
+.th, .td{
+    padding: 20px 35px;
+    color: #fff;
+    width: 130px;
+    text-align: left;
+}
+
+.plantiTable > h2{
+    color: #fff;
+    border-bottom: solid 1px #fff;
+    height: 33px;
+    font-weight: 200;
+}
+
+#conciertos{
+    display: inline-block;
+    position: relative;
+    top: -446px;
+    background-color: white;
+    width: 100%;
+}
+
+.plantiTable > h3{
+    color: #6f9f87;
+    border-bottom: solid 1px #6f9f87;
+    height: 33px;
+    font-weight: 200;
+    font-size: 34px;
+    padding-top: 60px;
+}
+
+.tdy, .thy{
+    padding: 20px 35px;
+    color: #6f9f87;
+    width: 130px;
+    text-align: left;
+}
+
+#footer{
+    position: relative;
+    top: 1731px;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    height: 368px;
+    background-color: #bcdfce;
+    color: #fff;
+    padding: 0px 0px 0px 0px;
+    z-index: 1000;
+}
+
+#footer > p{
+    position: relative;
+    display: inline-block;
+    top: 149px;
+    font-family: 'Pacifico';
+    color: #fff;
+    font-size: 50px;
+    height: 39px;
+}
+
+#marcaDeAgua{
+    font-size: 15px !important;
+    top: 258px !important;
+    height: 23px !important;
+    float: right !important;
+    right: 29px !important;
+    font-family: apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif !important;
+}
+
+#footer > a{
+    text-decoration: none;
+    top: 188px;
+    position: relative;
+}
+
+#footer > a > input{
+    position: relative;
+    background-color: #fff;
+    border: solid 1px #fff;
+    font-size: 18px;
+    color: #8a8d8f;
+    font-family: 'Montserrat';
+    border-radius: 4px;
+    padding: 7px 35px 7px 40px;
+    cursor: pointer;
+}
+
+
+@media only screen and (max-width: 1900px) {
+    .content{
+        height: 736px;
+    }
+
+    .prom > .pint > p{
+        top: 204px;
+    }
+
+    .prom > .titl {
+        top: 129px;
+        padding: 0px 254px;
+    }
+
+    #ty{
+        text-align: center;
+    }
+
+    .pas{
+        padding: 0px 0px 0px 0px;
+        margin: 65px 0px 45px 0px;
+        height: 50px;
+        min-width: 489px;
+    }
+    #conciertos {
+        display: inline-block;
+        position: relative;
+        top: -446px;
+        background-color: white;
+        width: 100%;
+    }
+    #footer{
+        position: absolute;
+        top: 384% !important;
+    }
+
+}
+@media only screen and (max-width: 375px){
+    h1{
+        font-size: 24px;
+        left: 22px;
+    }
+    #prom1, #prom2{
+        width: 375px;
+        height: 243px;
+    }
+
+    #but > a > input{
+        top: 18px;
+        right: 22px;
+    }
+
+    .content{
+        height: 100%;
+    }
+
+    .prom > img{
+        height: 300px;
+    }
+
+    .prom > .pint > p{
+        top: 40%;
+        font-size: 29px;
+        color: #fff;
+        line-height: 42px;
+        text-align: center;
+        font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+        position: absolute;
+        padding: 0px 25px 0px 25px;
+        font-weight: 100;
+    }
+
+    .pint > p{
+        line-height: 35px;
+    }
+
+
+    .promM{
+        width: 87%;
+        display: inline-block;
+        position: relative;
+        padding: 0px;
+        height: 72px;
+        top: -190px;
+        line-height: 25px;
+        margin: 0px 0px 0px 38px;
+        background: none;
+    }
+
+    #ty{
+        top:-201px;
+        height: 365px;
+    }
+
+    .prom > .promM > h5{
+        font-size: 20px;
+        position: relative;
+        top: -5px;
+        line-height: 6px;
+    }
+
+    .promM > .secn{
+        font-size: 16px;
+        position: relative;
+        top: 4px;
+        margin: 0px;
+    }
+
+    .prom > .titl{
+        top: 25%;
+        font-size: 25px;
+        line-height: 39px;
+        padding: 0px 25px 0px 25px;
+        font-family: 'Pacifico';
+        font-weight: 100;
+    }
+    .prom > .titl{
+        top: 25%;
+        font-size: 25px;
+        line-height: 39px;
+        padding: 0px 25px 0px 25px;
+    }
+
+    .th, .td{
+        padding: 7px 0px;
+    }
+
+    #tables{
+        display: inline-block;
+        position: relative;
+        top: 100px;
+        background-color: #49ae7cb3;
+        padding: 0px 0px 0px 0px;
+        width: auto;
+    }
+
+    .plantiTable{
+        padding: 0px 0px 100px 0px;
+        display: inline-block;
+        top: -155px;
+    }
+
+    .plantiTable > h2{
+        top: -261px;
+        position: relative;
+        margin-left: 10px;
+    }
+
+
+    .th{
+        padding: 12px 0px;
+
+        font-size: 13px;
+
+        font-weight: 100;
+
+        border-bottom: 1px #fff solid;
+    }
+}
+.pas{
+    font-size: 40px;
+    padding: 0px;
+    margin: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: black;
+    z-index: 4;
+
+    margin-bottom: 19px;
+    margin-top: 55px;
+    min-width: 374px;
+}
+.pas{
+    font-size: 40px;
+    padding: 0px;
+    margin: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: black;
+    z-index: 4;
+    min-width: 328px;
+    margin-bottom: 19px;
+    margin-top: 55px;
+}
